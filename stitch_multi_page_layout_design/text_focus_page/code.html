@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DORTH PRESENTATION - Text Focus</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-on-surface": "#f1f1f1",
+                        "on-primary": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface-variant": "#e2e2e2",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-surface": "#1a1c1c",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#e2e2e2",
+                        "on-tertiary-container": "#848484",
+                        "secondary-fixed": "#e4e2e2",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f3f3f3",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary": "#000000",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#848484",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2f3131",
+                        "surface": "#f9f9f9",
+                        "on-primary-fixed-variant": "#474747",
+                        "secondary-container": "#e1dfdf",
+                        "on-surface-variant": "#4c4546",
+                        "surface-container": "#eeeeee",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#c6c6c6",
+                        "outline-variant": "#cfc4c5",
+                        "tertiary-fixed": "#e2e2e2",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626263",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-dim": "#dadada",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "primary": "#000000",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-container": "#1b1b1b",
+                        "surface-tint": "#5e5e5e",
+                        "outline": "#7e7576",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "secondary": "#5e5e5e",
+                        "on-background": "#1a1c1c",
+                        "primary-fixed-dim": "#c6c6c6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0rem",
+                        "lg": "0rem",
+                        "xl": "0rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "element-gap": "1rem",
+                        "gutter-grid": "1.5rem",
+                        "margin-page": "4rem",
+                        "section-gap": "8rem"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "label-xs": ["JetBrains Mono"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-sm": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-xs": ["10px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Hanken Grotesk', sans-serif;
+            background-color: #f9f9f9;
+            color: #1a1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .hairline {
+            height: 1px;
+            background-color: #cfc4c5;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+<!-- Top Navigation Shell -->
+<nav class="flex justify-between items-center w-full px-margin-page py-6 max-w-none bg-background dark:bg-background border-b border-outline-variant dark:border-outline fixed top-0 z-50">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-primary dark:text-on-primary">
+            DORTH PRESENTATION
+        </div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm hover:text-primary dark:hover:text-on-primary transition-colors duration-300" href="#">Studio</a>
+<a class="text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm hover:text-primary dark:hover:text-on-primary transition-colors duration-300" href="#">Team</a>
+<a class="text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm hover:text-primary dark:hover:text-on-primary transition-colors duration-300" href="#">Product</a>
+<a class="text-primary dark:text-on-primary border-b border-primary dark:border-on-primary pb-1 uppercase font-label-sm text-label-sm" href="#">Archive</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="font-label-sm text-label-sm uppercase tracking-widest text-primary dark:text-on-primary hover:opacity-70 transition-opacity">Contact</button>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-32 px-margin-page pb-section-gap">
+<!-- Header Branding Meta -->
+<div class="flex justify-between items-baseline mb-12">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">DORTH PRESENTATION</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">14</div>
+</div>
+<div class="hairline mb-section-gap"></div>
+<!-- Asymmetric Layout: Text Focus Section -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-grid items-start">
+<!-- Left Column: Structured List -->
+<div class="col-span-1 md:col-span-6 flex flex-col gap-4">
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase leading-tight mb-8">
+                    HELLO COME. LOREM IPSUM<br/>
+                    DOLOR SIT AMET, CONSECTETUER<br/>
+                    ADIPISCING ELIT. AENEAN<br/>
+                    COMMODO LIGULA EGET DOLOR.<br/>
+                    AENEAN MASSA. CUM SOCIIS<br/>
+                    NATOQUE PENATIBUS ET MAGNIS<br/>
+                    DIS PARTURIENT MONTES.<br/>
+                    NASCETUR RIDICULUS MUS.
+                </h2>
+<div class="w-24 hairline bg-primary mb-12"></div>
+<div class="flex flex-col gap-6 max-w-md">
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Our studio operates at the intersection of architectural precision and digital innovation. We believe that clarity is not just a visual choice, but a functional imperative for high-end digital experiences.
+                    </p>
+<div class="font-label-xs text-label-xs text-outline uppercase tracking-[0.2em]">WWW.DORTH-TEMPLATE.COM</div>
+</div>
+</div>
+<!-- Right Column: Contrast Focus -->
+<div class="col-span-1 md:col-span-6 flex flex-col items-end md:pt-16">
+<!-- Black Focus Block -->
+<div class="bg-primary p-12 md:p-16 w-full max-w-xl text-on-primary relative overflow-hidden group">
+<!-- Subtle pattern simulation using CSS -->
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+<div class="relative z-10 flex flex-col gap-10">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-on-primary-container">Explore</div>
+<p class="font-body-md text-body-md text-on-primary leading-relaxed opacity-90">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+<div class="flex justify-between items-center">
+<button class="flex items-center gap-4 group/btn">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.3em] group-hover/btn:translate-x-2 transition-transform duration-300">View Archive</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<span class="font-label-xs text-label-xs opacity-50">REF: 5641</span>
+</div>
+</div>
+</div>
+<!-- Secondary Visual Detail -->
+<div class="mt-24 w-full flex justify-end">
+<div class="w-32 h-32 bg-surface-container border border-outline-variant flex items-center justify-center p-4">
+<div class="w-full h-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">square</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Horizontal Separator -->
+<div class="mt-section-gap mb-24">
+<div class="hairline"></div>
+<div class="flex justify-between pt-4">
+<div class="font-label-xs text-label-xs text-outline uppercase">Section 05</div>
+<div class="font-label-xs text-label-xs text-outline uppercase">Contextual Dynamics</div>
+</div>
+</div>
+<!-- Bottom Grid Detail -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter-grid">
+<div class="flex flex-col gap-4">
+<div class="font-label-sm text-label-sm uppercase font-bold">Concept</div>
+<div class="hairline"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Defining structural boundaries through negative space and typographic hierarchy.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-label-sm text-label-sm uppercase font-bold">Identity</div>
+<div class="hairline"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Monochromatic palette prioritizing the integrity of form over decorative color.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-label-sm text-label-sm uppercase font-bold">Precision</div>
+<div class="hairline"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Fixed 12-column architectural grid systems inspired by print-media heritage.</p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-label-sm text-label-sm uppercase font-bold">Future</div>
+<div class="hairline"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">Scaling the DORTH ecosystem across diverse digital and physical touchpoints.</p>
+</div>
+</div>
+</main>
+<!-- Footer Shell -->
+<footer class="flex justify-between items-center w-full px-margin-page py-8 mt-section-gap bg-background dark:bg-background border-t border-outline-variant dark:border-outline">
+<div class="font-label-xs text-label-xs uppercase tracking-tighter text-on-secondary-fixed-variant dark:text-secondary-fixed-dim">
+            © 2024 DORTH STUDIO. ALL RIGHTS RESERVED.
+        </div>
+<div class="flex gap-8 items-center">
+<a class="font-label-xs text-label-xs uppercase text-on-secondary-fixed-variant dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-on-primary transition ease-in-out duration-200" href="#">Instagram</a>
+<a class="font-label-xs text-label-xs uppercase text-on-secondary-fixed-variant dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-on-primary transition ease-in-out duration-200" href="#">LinkedIn</a>
+<a class="font-label-xs text-label-xs uppercase text-primary dark:text-on-primary transition ease-in-out duration-200" href="#">Terms</a>
+</div>
+</footer>
+<!-- Hover & Micro-interaction script -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Simple mouse tracking for a slight parallax or atmospheric effect on the black block
+            const block = document.querySelector('.bg-primary');
+            if (block) {
+                block.addEventListener('mousemove', (e) => {
+                    const rect = block.getBoundingClientRect();
+                    const x = ((e.clientX - rect.left) / rect.width) * 100;
+                    const y = ((e.clientY - rect.top) / rect.height) * 100;
+                    block.style.setProperty('--mouse-x', `${x}%`);
+                    block.style.setProperty('--mouse-y', `${y}%`);
+                });
+            }
+        });
+    </script>
+</body></html>

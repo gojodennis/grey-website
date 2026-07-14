@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DORTH PRESENTATION | BRANDING PRODUCT</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-on-surface": "#f1f1f1",
+                        "on-primary": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface-variant": "#e2e2e2",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-surface": "#1a1c1c",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#e2e2e2",
+                        "on-tertiary-container": "#848484",
+                        "secondary-fixed": "#e4e2e2",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f3f3f3",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary": "#000000",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#848484",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2f3131",
+                        "surface": "#f9f9f9",
+                        "on-primary-fixed-variant": "#474747",
+                        "secondary-container": "#e1dfdf",
+                        "on-surface-variant": "#4c4546",
+                        "surface-container": "#eeeeee",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#c6c6c6",
+                        "outline-variant": "#cfc4c5",
+                        "tertiary-fixed": "#e2e2e2",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626263",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-dim": "#dadada",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "primary": "#000000",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-container": "#1b1b1b",
+                        "surface-tint": "#5e5e5e",
+                        "outline": "#7e7576",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "secondary": "#5e5e5e",
+                        "on-background": "#1a1c1c",
+                        "primary-fixed-dim": "#c6c6c6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "element-gap": "1rem",
+                        "gutter-grid": "1.5rem",
+                        "margin-page": "4rem",
+                        "section-gap": "8rem"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "label-xs": ["JetBrains Mono"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-sm": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-xs": ["10px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .architectural-line {
+            height: 1px;
+            background-color: #cfc4c5;
+            width: 100%;
+        }
+
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .hover-lift {
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .hover-lift:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="bg-background border-b border-outline-variant flex justify-between items-center w-full px-margin-page py-6 max-w-none fixed top-0 z-50">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-primary">
+            DORTH PRESENTATION
+        </div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-primary border-b border-primary pb-1 font-label-sm text-label-sm hover:text-primary transition-colors duration-300 active:opacity-70" href="#">Studio</a>
+<a class="text-on-secondary-fixed-variant uppercase font-label-sm text-label-sm hover:text-primary transition-colors duration-300 active:opacity-70" href="#">Team</a>
+<a class="text-on-secondary-fixed-variant uppercase font-label-sm text-label-sm hover:text-primary transition-colors duration-300 active:opacity-70" href="#">Product</a>
+<a class="text-on-secondary-fixed-variant uppercase font-label-sm text-label-sm hover:text-primary transition-colors duration-300 active:opacity-70" href="#">Archive</a>
+</nav>
+<div class="flex items-center gap-6">
+<span class="font-label-sm text-label-sm">14</span>
+<button class="bg-primary text-on-primary px-6 py-2 font-label-sm text-label-sm uppercase tracking-widest hover:bg-opacity-90 transition-all">
+                Contact
+            </button>
+</div>
+</header>
+<main class="flex-grow pt-32">
+<!-- Hero Section -->
+<section class="px-margin-page mb-section-gap">
+<div class="relative w-full aspect-[21/9] overflow-hidden mb-12">
+<!-- Large Grayscale Skyline -->
+<img class="w-full h-full object-cover grayscale brightness-90" data-alt="A panoramic wide-angle grayscale photograph of a massive metropolitan skyline at dawn. The silhouette of skyscrapers including a prominent spire-topped tower stands sharply against a moody, overcast sky. The foreground features a dark, calm body of water reflecting the minimal light. The aesthetic is ultra-minimalist, high-contrast black and white, conveying a sense of architectural grandeur and silent luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFkOlQjdKyDuB3cIHJNjlolkE3EsrjmbkPONCIsXwGseZupbr8lF9zqbt1jDWKX20WruNr2DxPAXc1CBc0YIWe7cAWJnxvNZHYJujRxtf7yWm8J_H894lEOEu7e6WHNCsnZ5yscLFjRvyuRod-wUb3WAokK3aclLkt1H4ytZMcB_yqNa-iEnNaK8rjNo0YITF3ILYigkTXjkofhZS9h01QlDhnAdS0uaHS3bMF2N8MePs-bFE_5RiWjSGQdBRQZxcLtclIgQtOPg"/>
+<!-- Vertical Brand Anchor -->
+<div class="absolute right-8 top-1/2 -translate-y-1/2 flex flex-col items-center gap-4">
+<span class="vertical-text font-display-lg text-display-lg text-white opacity-90 tracking-tighter">DORTH</span>
+</div>
+<!-- Subtle URL Overlay -->
+<div class="absolute left-8 bottom-8 vertical-text font-label-xs text-label-xs text-white opacity-50 tracking-widest">
+                    WWW.DORTH-TEMPLATE.COM
+                </div>
+</div>
+<!-- Hero Typography Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-grid items-end">
+<div class="md:col-span-6">
+<h1 class="font-display-lg text-display-lg uppercase leading-none mb-4">
+                        BRANDING<br/>PRODUCT.
+                    </h1>
+</div>
+<div class="md:col-span-5 md:col-start-8">
+<p class="font-body-md text-on-surface-variant mb-8 max-w-md">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+                    </p>
+<a class="inline-flex items-center gap-4 group" href="#">
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Explore</span>
+<div class="h-[1px] w-12 bg-primary transition-all group-hover:w-20"></div>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Divider -->
+<div class="px-margin-page mb-section-gap">
+<div class="architectural-line"></div>
+</div>
+<!-- Secondary Section: Bento Studio -->
+<section class="px-margin-page mb-section-gap">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-5 relative aspect-square bg-tertiary overflow-hidden group">
+<img class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" data-alt="A focused, low-key black and white photograph of an architectural model workshop. Soft directional light hits a miniature white structural frame on a dark wooden table. The surrounding room is in deep shadow, emphasizing the precision and craftsmanship of the design process. The style is moody, professional, and sophisticated." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVLggm1Ga-RXaMvBvf9KkeuhPdBAlQ_VbivklWTKZPaSVpsADA2PhAon9YsefZmgQXBezPtdRjdnAZI4jo3YvhqJ6p80smoaf-6HwWNWO_EJkRQxoPwGENiH3wSgnXwkUUaWWOGva47ckL-_iAkDWFpL6XOkUO-8X0VdaaO40l6Fm00RVskMZJIxZsJ0Hl3xoC2seYLwKWTeZt8MO-o2RPkXz6uPJakHOydnzG7dVKkTzGRfKheBgeIx1MevM6BOi9cv9e4-eWiQ"/>
+</div>
+<div class="md:col-span-6 md:col-start-7 flex flex-col justify-center">
+<div class="font-label-xs text-label-xs uppercase tracking-[0.2em] mb-6 text-on-secondary-fixed-variant">Studio Insight</div>
+<h2 class="font-headline-lg text-headline-lg uppercase mb-8 leading-tight">
+                        STUDIO<br/>INSIDE?
+                    </h2>
+<p class="font-body-md text-on-surface-variant mb-12">
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                    </p>
+<div class="border-l border-primary pl-6 py-2 italic text-on-surface opacity-80">
+                        "Don't use a brand; wear one that is really comfortable for you."
+                    </div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="px-margin-page mb-section-gap">
+<div class="flex justify-between items-end mb-12 border-b border-outline-variant pb-8">
+<h2 class="font-headline-lg text-headline-lg uppercase">THE TEAM.</h2>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant">17</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-grid">
+<div class="md:col-span-4">
+<p class="font-body-md text-on-surface-variant max-w-xs mb-8">
+                        Our studio brings together experts from across the globe to redefine architectural aesthetics.
+                    </p>
+<a class="font-label-sm text-label-sm uppercase tracking-widest border-b border-primary pb-1" href="#">Join the vision</a>
+</div>
+<div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+<!-- Team Card 1 -->
+<div class="flex gap-6 items-start">
+<div class="w-32 aspect-square bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A minimalist grayscale headshot of a woman with sharp, modern features looking directly into the camera. High-contrast lighting creates dramatic shadows. She is wearing a simple black turtleneck. The background is a flat neutral gray, fitting the high-end editorial minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANq5UYwTjdBH5Ct-FZJaB-wyK2HWbFjOtSryV2ORl1sxoOOdlhxBHakkxHkqQZMu3Axg3TsGSk_pto3RvTv38me-xSjuhZNp9njATDVwioCdPCN7FNMBRE-6XO2tG4YbnSLLCvrc9cs_PemljOmYEoH3awGvEBcrjjuAF1_2KFtSMSmJuLvc51UVe092G2TpmuG4HCh93cKIPo0tbt2GLU8zlux0bDRej8EJNWBNvo8CdhL-CKzy7Vx7rEUxDhcIVuaTTiudNvqg"/>
+</div>
+<div>
+<div class="font-label-sm text-label-sm uppercase font-bold mb-1">Leila Zorra</div>
+<div class="font-label-xs text-label-xs text-on-secondary-fixed-variant uppercase mb-4 tracking-wider">Graphic Design</div>
+<p class="text-[12px] leading-relaxed text-on-surface-variant">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.</p>
+</div>
+</div>
+<!-- Team Card 2 -->
+<div class="flex gap-6 items-start">
+<div class="w-32 aspect-square bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A profile-view grayscale portrait of a young man with a sharp jawline, looking away from the camera. The image uses stark black and white tones with high contrast. Minimalist clothing and a clean, light gray background emphasize professional sophistication and quiet luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYZoY1gfgffXtcWtLjS8dVzxTHugP8Ik4VgB4gX0H4qm9Thrqjdt6uZn13FuZkCrOsDLo7V17AgO7QY_ACXDteLxalwkMOqzZH7O80djGpoX7qH1mZ6hsh1De08L3sSgRb6PeqamC3pKxSzLOO451nVbGQ9CGOrq85ZnL4GDShAWHsRV4_fRggj8jEcrE0rtBJ7-jH-INvcAigQNzlcWJhhfZFZgv6znDdPHM7bVXQ5J4JxeXjMnu-JMUwCs4VAIFFxVL2zr78bg"/>
+</div>
+<div>
+<div class="font-label-sm text-label-sm uppercase font-bold mb-1">Alexander</div>
+<div class="font-label-xs text-label-xs text-on-secondary-fixed-variant uppercase mb-4 tracking-wider">Product Master</div>
+<p class="text-[12px] leading-relaxed text-on-surface-variant">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Materials (Grid) -->
+<section class="px-margin-page mb-section-gap">
+<div class="flex justify-center mb-16">
+<h2 class="font-headline-lg text-headline-lg uppercase text-center relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-primary">
+                    PRODUCT MATERIAL.
+                </h2>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" data-alt="A close-up grayscale shot of professional studio equipment including a high-end microphone and boom arm in a dark room. The lighting is soft but precise, highlighting metallic textures and smooth surfaces against a deep black background. The mood is creative and technical." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs946YQlQB2oFxgV2O7R0i6GC1zAFPMQe0Xyky2bOn9Os0no8rxYgW3A4_XEqf_XqlR0DP-9lEUnXt6TlJqPrOD4tWTN-3oZhS7oUCLc6Ifa0V54DlIKldDu6Ktd_P8TzU57Wl2n_mQXfHCZHG6uDAlFk-BdODIKUaoWoPvSYf_cr5kHaQ_lNMlj4JLSiJZQAhwT_mqinTRU-FwFjWg2tXlMrcgK1c-BTXyybNmuUM7ZtJ-OBETES5ET-IBqS_KrkXKIfwVIOFuw"/>
+</div>
+<div class="font-label-xs text-label-xs uppercase mb-2">Material / 01</div>
+<div class="architectural-line mb-3"></div>
+<p class="text-[11px] leading-relaxed text-on-surface-variant">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" data-alt="A black and white photograph of a vintage luxury car parked in front of a modern architectural facade. The composition is balanced and symmetrical, focusing on the sleek lines of the vehicle and the clean horizontal planes of the building. High-contrast light creates deep shadows and brilliant highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY2TtQmaZt_rgoot_QqMzxqddoxnSp2CTXow5SOHphIPKBCGZ1U6vTLXAOFBxTRElKMMnfdur5g10XawODLmWks35yhJoQNDhxx3AkG1wwp1gIOC5H2588K7LNSEg3B01pNAm1B0wetIK3TVZOy9Z0Kkezxsj6wx4aSro4x3H5er8L8d0fYKN-QgYzZANEnf3-_lpuK1C5XNVKaDBZLGnagR0Lr0anME2jHxYhE2LLEzUtZD-IEgduuR7K16ZvmiBVm5sWgowQOQ"/>
+</div>
+<div class="font-label-xs text-label-xs uppercase mb-2">Material / 02</div>
+<div class="architectural-line mb-3"></div>
+<p class="text-[11px] leading-relaxed text-on-surface-variant">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" data-alt="A minimalist architectural detail showing a circular recessed light in a textured white ceiling. The grayscale image focuses on form, shadow, and the subtle gradation of light on a curved surface. The aesthetic is clean, technical, and serene." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArYygJi57GJqgk5XnX0Hk4mmnCVhshmvUulk4uRKCgWjwLbpxpW4gCqPUN7_B-bpVd7sLUJoTyfqrhMutfm7QrzvrQ1hJeO4zET-hTr2hh5d0u4yXK8dmaAGAA6br9dXQ0fkJZlQ49B2bBsC7Qw0Dvhv3ccFHHaLCEKSx4rrjGhUrdo2YaNH2FvSAnch1kzCpfNDje2_6JPUpffstxlr-RHnssgt_5p23fu5rmb6DAd9trLCkAO_SYsu2YZHVETheW4GblQrzzgQ"/>
+</div>
+<div class="font-label-xs text-label-xs uppercase mb-2">Material / 03</div>
+<div class="architectural-line mb-3"></div>
+<p class="text-[11px] leading-relaxed text-on-surface-variant">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" data-alt="A silhouette of a modern chair against a bright window, rendered in stark black and white. The background shows a soft, out-of-focus urban landscape. The composition emphasizes the iconic silhouette and geometric form of the furniture within a minimalist interior." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPDY1DqiTGeIW4zmCU66aAd18NH_sGK8jhMXKuiG2uZFh8DsqWnhehesCWLqpi5D1Bm5VPfrdQ3c8hB7vqI5mB2GhETQrfZ71J71oeoAr_PJIVsB9PxjifOSgD0-w6Xn9SfkNYZR2StoLgZEB26NlqKyfuWgqxqubTHVTLebozWZGH1bZU16nVAD3bqVleSTOjJo4BS9L_vCNS6DgIOVOWUHoT4y9eJLZMiDM-p4PjGc1s9XJkpzEzrwxyxUk4zwWep9DBABkvzA"/>
+</div>
+<div class="font-label-xs text-label-xs uppercase mb-2">Material / 04</div>
+<div class="architectural-line mb-3"></div>
+<p class="text-[11px] leading-relaxed text-on-surface-variant">Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background border-t border-outline-variant flex flex-col md:flex-row justify-between items-center w-full px-margin-page py-12 mt-section-gap">
+<div class="font-label-xs text-label-xs uppercase tracking-tighter mb-8 md:mb-0">
+            DORTH STUDIO
+        </div>
+<div class="text-on-secondary-fixed-variant font-label-xs text-label-xs text-center md:text-left mb-8 md:mb-0">
+            © 2024 DORTH STUDIO. ALL RIGHTS RESERVED.
+        </div>
+<div class="flex gap-12">
+<a class="text-on-secondary-fixed-variant font-label-xs text-label-xs uppercase hover:text-primary transition-all" href="#">Instagram</a>
+<a class="text-on-secondary-fixed-variant font-label-xs text-label-xs uppercase hover:text-primary transition-all" href="#">LinkedIn</a>
+<a class="text-on-secondary-fixed-variant font-label-xs text-label-xs uppercase hover:text-primary transition-all" href="#">Terms</a>
+</div>
+</footer>
+<script>
+        // Micro-interaction for the active nav state
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navLinks.forEach(l => {
+                    l.classList.remove('text-primary', 'border-b', 'border-primary', 'pb-1');
+                    l.classList.add('text-on-secondary-fixed-variant');
+                });
+                link.classList.add('text-primary', 'border-b', 'border-primary', 'pb-1');
+                link.classList.remove('text-on-secondary-fixed-variant');
+            });
+        });
+    </script>
+</body></html>

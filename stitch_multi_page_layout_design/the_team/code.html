@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="en" class="light"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-on-surface": "#f1f1f1",
+            "on-primary": "#ffffff",
+            "background": "#f9f9f9",
+            "surface-variant": "#e2e2e2",
+            "on-secondary-fixed-variant": "#464747",
+            "on-surface": "#1a1c1c",
+            "surface-bright": "#f9f9f9",
+            "surface-container-highest": "#e2e2e2",
+            "error-container": "#ffdad6",
+            "primary-fixed": "#e2e2e2",
+            "on-tertiary-container": "#848484",
+            "secondary-fixed": "#e4e2e2",
+            "secondary-fixed-dim": "#c7c6c6",
+            "on-tertiary": "#ffffff",
+            "surface-container-low": "#f3f3f3",
+            "on-primary-fixed": "#1b1b1b",
+            "tertiary": "#000000",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-container": "#848484",
+            "on-secondary": "#ffffff",
+            "inverse-surface": "#2f3131",
+            "surface": "#f9f9f9",
+            "on-primary-fixed-variant": "#474747",
+            "secondary-container": "#e1dfdf",
+            "on-surface-variant": "#4c4546",
+            "surface-container": "#eeeeee",
+            "error": "#ba1a1a",
+            "inverse-primary": "#c6c6c6",
+            "outline-variant": "#cfc4c5",
+            "tertiary-fixed": "#e2e2e2",
+            "tertiary-container": "#1b1b1b",
+            "on-secondary-container": "#626263",
+            "surface-container-high": "#e8e8e8",
+            "surface-dim": "#dadada",
+            "on-tertiary-fixed-variant": "#474747",
+            "primary": "#000000",
+            "on-tertiary-fixed": "#1b1b1b",
+            "on-error": "#ffffff",
+            "on-secondary-fixed": "#1b1c1c",
+            "primary-container": "#1b1b1b",
+            "surface-tint": "#5e5e5e",
+            "outline": "#7e7576",
+            "on-error-container": "#93000a",
+            "tertiary-fixed-dim": "#c6c6c6",
+            "secondary": "#5e5e5e",
+            "on-background": "#1a1c1c",
+            "primary-fixed-dim": "#c6c6c6"
+          },
+          "borderRadius": {
+            "DEFAULT": "0px",
+            "lg": "0px",
+            "xl": "0px",
+            "full": "9999px"
+          },
+          "spacing": {
+            "element-gap": "1rem",
+            "gutter-grid": "1.5rem",
+            "margin-page": "4rem",
+            "section-gap": "8rem"
+          },
+          "fontFamily": {
+            "headline-lg-mobile": ["Hanken Grotesk"],
+            "label-xs": ["JetBrains Mono"],
+            "display-lg": ["Hanken Grotesk"],
+            "body-md": ["Hanken Grotesk"],
+            "headline-lg": ["Hanken Grotesk"],
+            "label-sm": ["JetBrains Mono"]
+          },
+          "fontSize": {
+            "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+            "label-xs": ["10px", {"lineHeight": "1.2", "fontWeight": "400"}],
+            "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+            "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+            "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500"}]
+          }
+        },
+      },
+    }
+  }catch(_e){}</script><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;display=swap" rel="stylesheet"></head><body class="bg-background text-on-surface selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar -->
+<nav class="flex justify-between items-center w-full px-margin-page py-6 max-w-none docked full-width top-0 border-b border-outline-variant dark:border-outline bg-background dark:bg-background z-50 sticky">
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-primary dark:text-on-primary">
+      DORTH PRESENTATION
+    </div>
+<div class="hidden md:flex gap-8">
+<a href="#" class="hover:text-primary dark:hover:text-on-primary transition-colors duration-300 text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm">Studio</a>
+<a href="#" class="text-primary dark:text-on-primary border-b border-primary dark:border-on-primary pb-1 uppercase font-label-sm text-label-sm">Team</a>
+<a href="#" class="hover:text-primary dark:hover:text-on-primary transition-colors duration-300 text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm">Product</a>
+<a href="#" class="hover:text-primary dark:hover:text-on-primary transition-colors duration-300 text-on-secondary-fixed-variant dark:text-secondary-fixed-dim uppercase font-label-sm text-label-sm">Archive</a>
+</div>
+<div class="font-label-sm text-label-sm uppercase text-primary dark:text-on-primary cursor-pointer hover:opacity-70 transition-opacity">
+      Contact
+    </div>
+</nav>
+<main class="min-h-screen px-margin-page pt-20">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-grid">
+<!-- Left Column: Heading & Intro -->
+<section class="md:col-span-5 flex flex-col justify-start">
+<div class="mb-12">
+<span class="font-label-xs text-label-xs uppercase tracking-widest text-on-secondary-container mb-4 block">Section 02 — People</span>
+<h1 class="font-display-lg text-display-lg text-primary uppercase leading-none">THE TEAM.</h1>
+</div>
+<div class="max-w-xs">
+<div class="thin-hairline mb-8"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            Our multidisciplinary team combines architectural precision with digital fluidty. We believe in the power of quiet luxury and intentional design to transform brand narratives.
+          </p>
+<div class="flex items-center gap-2 group cursor-pointer">
+<span class="font-label-sm text-label-sm uppercase tracking-widest group-hover:pr-2 transition-all">Join the studio</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</section>
+<!-- Right Column: Profile Rows -->
+<section class="md:col-span-7 flex flex-col gap-16">
+<!-- Profile 01 -->
+<article class="grid grid-cols-1 sm:grid-cols-10 gap-8 group">
+<div class="sm:col-span-4 relative portrait-mask grayscale hover:grayscale-0 transition-all duration-700 ease-in-out border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A professional high-fashion portrait of a woman with sharp features and dark hair, wearing a structured minimalist black blazer. The lighting is dramatic and high-contrast, casting deep shadows against a stark white background. The aesthetic is clean, editorial, and sophisticated, mirroring a luxury architectural magazine style in monochrome." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCXsn0u2i44hH0Aj68K0qkjHEIkERS-APLQlqB8Z09SnMGmSFPr6J-kocYsXfnYp9BFjEZljPvAhbpOHe1eYCre0kLPoqacmRwIZRXnOwav7Fo2Hl9pyF1U0rQiEV_n6jg2Mt8axxPkRDqIPbx--Jb3zNDU9JJ3FSEKA4NEytaIb3SqQAZON7632gtsifxUDUGNyNk3InZJAk9OemDd0Qo2005ufiWOgfnv2mAhJ2xVNna8lDP6fen6i4h3IlnnVPlU2qc4S1Xew">
+</div>
+<div class="sm:col-span-6 flex flex-col justify-end pb-4">
+<div class="flex justify-between items-baseline border-b border-outline-variant pb-2 mb-4">
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">Elena Vork</h2>
+<span class="font-label-xs text-label-xs text-on-tertiary-container uppercase tracking-widest">Founder / CD</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              With over a decade of experience in architectural visualization and brand identity, Elena leads the creative direction of DORTH, focusing on structural purity and spatial harmony.
+            </p>
+<div class="flex gap-4">
+<a class="font-label-xs text-label-xs uppercase border border-primary px-3 py-1 hover:bg-primary hover:text-on-primary transition-colors" href="#">Portfolio</a>
+<a class="font-label-xs text-label-xs uppercase border border-outline-variant px-3 py-1 hover:border-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+</article>
+<!-- Profile 02 -->
+<article class="grid grid-cols-1 sm:grid-cols-10 gap-8 group">
+<div class="sm:col-span-4 relative portrait-mask grayscale hover:grayscale-0 transition-all duration-700 ease-in-out border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A side-profile grayscale portrait of a man with short hair and a clean-shaven face, looking contemplative. He is wearing a simple black turtleneck against a soft gray backdrop. The lighting is soft but directional, highlighting the contours of his face in a manner typical of high-end design studio headshots. The image exudes technical precision and modern minimalism." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBl89-4wCcM8390A-JOs-29u5oRrZ4cY65JpYLeRmesYDaVwS3wX3QHK47NbDP6tOTwj751Z_K9m-jfNVyBHrpZQBOXHzxKx7UMbe-FFoxbnWtRjsl76Uenm7EmvfQmGHtrmtul0obte58wU5wheDgdUcmb9R39PCF1NsPw1FyhWtstmRlp6obF-XP1CcPfHlsN-CYqhLh2RzlOV1Of8Yx6S5dNZFxeEc1a_lrgmr_IAaRLMv7I4gkWhQMeb1ZTqLXg8kJoXZ0aaA">
+</div>
+<div class="sm:col-span-6 flex flex-col justify-end pb-4">
+<div class="flex justify-between items-baseline border-b border-outline-variant pb-2 mb-4">
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase">Marcus Thorne</h2>
+<span class="font-label-xs text-label-xs text-on-tertiary-container uppercase tracking-widest">Lead Architect</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              Marcus specializes in the intersection of physical materials and digital environments. His work explores how traditional craftsmanship can be translated into interactive experiences.
+            </p>
+<div class="flex gap-4">
+<a class="font-label-xs text-label-xs uppercase border border-primary px-3 py-1 hover:bg-primary hover:text-on-primary transition-colors" href="#">Portfolio</a>
+<a class="font-label-xs text-label-xs uppercase border border-outline-variant px-3 py-1 hover:border-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+</article>
+</section>
+</div>
+<!-- Background Elements -->
+
+</main>
+<!-- Footer -->
+<footer class="flex justify-between items-center w-full px-margin-page py-8 mt-section-gap border-t border-outline-variant dark:border-outline bg-background dark:bg-background">
+<div class="font-label-xs text-label-xs uppercase tracking-tighter text-primary dark:text-on-primary">
+      © 2024 DORTH STUDIO. ALL RIGHTS RESERVED.
+    </div>
+<div class="flex gap-6">
+<a class="font-label-xs text-label-xs uppercase text-on-secondary-fixed-variant dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-on-primary transition ease-in-out duration-200" href="#">Instagram</a>
+<a class="font-label-xs text-label-xs uppercase text-on-secondary-fixed-variant dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-on-primary transition ease-in-out duration-200" href="#">LinkedIn</a>
+<a class="font-label-xs text-label-xs uppercase text-on-secondary-fixed-variant dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-on-primary transition ease-in-out duration-200" href="#">Terms</a>
+</div>
+</footer>
+<script>
+    // Micro-interaction for portraits
+    document.querySelectorAll('.portrait-mask').forEach(mask => {
+      mask.addEventListener('mousemove', (e) => {
+        const { left, top, width, height } = mask.getBoundingClientRect();
+        const x = (e.clientX - left) / width - 0.5;
+        const y = (e.clientY - top) / height - 0.5;
+        const img = mask.querySelector('img');
+        img.style.transform = `scale(1.1) translate(${x * 10}px, ${y * 10}px)`;
+      });
+      mask.addEventListener('mouseleave', () => {
+        const img = mask.querySelector('img');
+        img.style.transform = `scale(1) translate(0, 0)`;
+      });
+    });
+  </script>
+</body></html>
